@@ -99,8 +99,8 @@
 
   <!-- HTC ace things -->
   https://github.com/madushan1000/htc7x30-3.0
-   <project path="device/htc/ace" name="android_device_htc_ace" remote="aospX" revision="ics"/>
-   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="aospX" revision="ics"/>
+   <project path="device/htc/ace" name="android_device_htc_ace" remote="madushan1000" revision="ics"/>
+   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="madusna1000" revision="ics"/>
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="07ef2f509a362cc6a5825d0d19143dc4bd2474e0"/>
   <project path="external/skia" name="skia-b2g-sgs2" remote="b2g" revision="e2d7caf0363dec74d77f7e7adbe5b4cce0c6524c" upstream="v1-train"/>
