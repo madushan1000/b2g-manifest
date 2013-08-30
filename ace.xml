@@ -90,8 +90,6 @@
   <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="master" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/wpa_client" name="platform/external/wpa_client" />
   <project path="external/hostap" name="platform/external/hostap" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
