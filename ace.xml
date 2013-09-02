@@ -6,7 +6,9 @@
   <remote name="mozilla" fetch="git://github.com/mozilla/"/>
   <remote name="caf" fetch="git://codeaurora.org/"/>
   <remote name="linaro" fetch="http://android.git.linaro.org/git-ro/"/>
-  <remote name="cuteprince" fetch="git://github.com/cuteprince/"/>
+  <remote name="madushan1000" fetch="https://github.com/madushan1000/"/>
+  <remote name="cuteprince" fetch="https://github.com/cuteprince"/>
+  <remote name="cm" fetch="https://github.com/CyanogenMod"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
   <default revision="ics_chocolate" remote="caf" sync-j="1"/>
 
