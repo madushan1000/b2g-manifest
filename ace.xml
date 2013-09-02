@@ -93,7 +93,7 @@
   <project path="system/vold" name="platform/system/vold" revision="ff8140d29751e95aa28fac28c660859e9f624e61"/>
 
   <!-- PICO specific things -->
-  <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" revision="3905a0b8fff94ed12a1149dc72875d15a6501c7a"/>
-  <project path="device/htc/pico" name="b2g_device_htc_pico" remote="cuteprince" revision="master"/>
-  <project path="vendor/htc/pico" name="ics-vendor-pico" remote="cuteprince" revision="master"/>
+  <project path="device/htc/ace" name="android_device_htc_ace" remote="madushan1000" revision="ics"/>
+  <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="madushan1000" revision="ics"/>
+  <project path="device/htc/common" name="android_device_htc_common" remote="madushan1000" revision="gingerbread"/>
 </manifest>
