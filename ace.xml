@@ -93,9 +93,9 @@
   <project path="external/hostap" name="platform/external/hostap" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="ics"/>
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="cm" revision="ics"/>
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="cm" revision="ics"/>
+  <project path="frameworks/support" name="platform/frameworks/support" remote="cm" revision="ics"/>
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="prebuilt" name="platform/prebuilt" />
