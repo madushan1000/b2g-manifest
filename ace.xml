@@ -15,8 +15,6 @@
   	  fetch="https://github.com/CyanogenMod/"/>
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases" />
-  <remote name="b2gx"
-          fetch="https://github.com/b2gX/" />
           
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <default revision="b2g/ics_strawberry_v1"
@@ -111,10 +109,10 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project name="platform/hardware/qcom" path="hardware/qcom"/>
-  <project name="platform/hardware/broadcam" path="hardware/broadcam"/>
-  <project name="platform/hardware/ril" path="hardware/ril"/>
-  <project name="platform/hardware/msm7k" path="hardware/msm7k"/>
+  <project name="platform/hardware/qcom" path="hardware/qcom" remote="aosp"/>
+  <project name="platform/hardware/broadcom" path="hardware/broadcom" remote="aosp"/>
+  <project name="platform/hardware/ril" path="hardware/ril" remote="aosp"/>
+  <project name="platform/hardware/msm7k" path="hardware/msm7k" remote="aosp"/>
 
   <!-- hamachi specific things -->
   <project path="device/htc/ace" name="android_device_htc_ace" remote="madushan1000" revision="ics"/>
