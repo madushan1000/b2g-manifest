@@ -112,7 +112,6 @@
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" />
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" />
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
-  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" />
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
   <project name="platform/hardware/ril" path="hardware/ril" />
   <project name="platform/hardware/msm7k" path="hardware/msm7k" />
