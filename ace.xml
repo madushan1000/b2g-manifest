@@ -109,10 +109,13 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project name="platform/hardware/qcom" path="hardware/qcom" remote="aosp"/>
-  <project name="platform/hardware/broadcom" path="hardware/broadcom" remote="aosp"/>
-  <project name="platform/hardware/ril" path="hardware/ril" remote="aosp"/>
-  <project name="platform/hardware/msm7k" path="hardware/msm7k" remote="aosp"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" />
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" />
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" />
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
+  <project name="platform/hardware/ril" path="hardware/ril" />
+  <project name="platform/hardware/msm7k" path="hardware/msm7k" />
 
   <!-- hamachi specific things -->
   <project path="device/htc/ace" name="android_device_htc_ace" remote="madushan1000" revision="ics"/>
