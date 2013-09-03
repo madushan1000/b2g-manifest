@@ -15,6 +15,9 @@
   	  fetch="https://github.com/CyanogenMod/"/>
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases" />
+  <remote name="b2gx"
+          fetch="https://github.com/b2gX/" />
+          
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
   <default revision="b2g/ics_strawberry_v1"
            remote="caf"
@@ -77,7 +80,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
-  <project path="external/skia" name="platform/external/skia" />
+  <project path="external/skia" name="platform_external_skia" remote="b2gx" revision="master"/>
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" revision="fb30e613139b8836fdc8e81e166cf3a76e5fa17f"/>
