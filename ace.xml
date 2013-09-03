@@ -80,7 +80,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
-  <project path="external/skia" name="platform_external_skia" remote="b2gx" revision="master"/>
+  <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" revision="fb30e613139b8836fdc8e81e166cf3a76e5fa17f"/>
@@ -109,6 +109,12 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
+  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
+  <project name="platform/hardware/qcom" path="hardware/qcom"/>
+  <project name="platform/hardware/broadcam" path="hardware/broadcam"/>
+  <project name="platform/hardware/ril" path="hardware/ril"/>
+  <project name="platform/hardware/msm7k" path="hardware/msm7k"/>
 
   <!-- hamachi specific things -->
   <project path="device/htc/ace" name="android_device_htc_ace" remote="madushan1000" revision="ics"/>
