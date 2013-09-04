@@ -113,7 +113,6 @@
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" />
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
-  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" />
   <project name="platform/hardware/qcom/power" path="hardware/qcom/power" />
   <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" />
   
