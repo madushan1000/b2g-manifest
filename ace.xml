@@ -38,6 +38,16 @@
   <project path="patches" name="gonk-patches" remote="b2g" revision="master" />
 
   <!-- Stock Android things -->
+  <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
+  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" />
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
+  <project name="platform/hardware/qcom/display" path="hardware/qcom/display" />
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
+  
+  <project name="platform/hardware/ril" path="hardware/ril" />
+  <project name="platform/hardware/msm7k" path="hardware/msm7k" />
+  
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -107,15 +117,7 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
-  <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
-  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" />
-  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
-  <project name="platform/hardware/qcom/display" path="hardware/qcom/display" />
-  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
   
-  <project name="platform/hardware/ril" path="hardware/ril" />
-  <project name="platform/hardware/msm7k" path="hardware/msm7k" />
   
   
   <!-- hamachi specific things -->
