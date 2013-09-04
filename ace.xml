@@ -121,6 +121,7 @@
   
   
   <!-- hamachi specific things -->
+  <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core"/>
   <project path="device/htc/ace" name="android_device_htc_ace" remote="madushan1000" revision="ics"/>
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="madushan1000" revision="ics"/>
   <project path="device/htc/common" name="android_device_htc_common" remote="madushan1000" revision="gingerbread"/>
