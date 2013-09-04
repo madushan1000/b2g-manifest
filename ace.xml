@@ -41,8 +41,7 @@
   <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" />
-  <!--project name="platform/hardware/qcom/media" path="hardware/qcom/media" /-->
-  <project name="platform/hardware/qcom/media" path="vendor/qcom/opensource" />
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" />
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
   <project name="platform/hardware/ril" path="hardware/ril" />
@@ -122,9 +121,9 @@
   <project path="external/apache-http" name="platform/external/apache-http" revision="6c9d8c58d3ed710f87c26820d903bb8aad81754f"/>
   
   <!-- hamachi specific things -->
-  <!--project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core"/-->
-  <!--project path="vendor/qcom/opensource/omx/mm-audio" name="platform/vendor/qcom-opensource/omx/mm-audio"/-->
-  <!--project path="vendor/qcom/opensource/omx/mm-video" name="platform/vendor/qcom-opensource/omx/mm-video"/-->
+  <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core"/>
+  <project path="vendor/qcom/opensource/omx/mm-audio" name="platform/vendor/qcom-opensource/omx/mm-audio"/>
+  <project path="vendor/qcom/opensource/omx/mm-video" name="platform/vendor/qcom-opensource/omx/mm-video"/>
   <project path="device/htc/ace" name="android_device_htc_ace" remote="madushan1000" revision="ics"/>
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="madushan1000" revision="ics"/>
   <project path="device/htc/common" name="android_device_htc_common" remote="madushan1000" revision="gingerbread"/>
