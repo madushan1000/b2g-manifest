@@ -115,7 +115,7 @@
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
   
   <project name="platform/hardware/ril" path="hardware/ril" />
-  <!--<project name="platform/hardware/msm7k" path="hardware/msm7k" /!>-->
+  <project name="platform/hardware/msm7k" path="hardware/msm7k" /!>
   
   
   <!-- hamachi specific things -->
