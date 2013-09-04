@@ -42,7 +42,7 @@
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" />
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
-  <project name="vendor/qcom/opensource/media" path="hardware/qcom/media" />
+  <project name="platform/hardware/qcom/media" path="vendor/qcom/opensource/media" />
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" />
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
   <project name="platform/hardware/ril" path="hardware/ril" />
