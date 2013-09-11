@@ -129,5 +129,5 @@
   <project path="device/htc/ace" name="android_device_htc_ace" remote="madushan1000" revision="ics"/>
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="madushan1000" revision="ics"/>
   <project path="device/htc/common" name="android_device_htc_common" remote="madushan1000" revision="gingerbread"/>
-  <project path="vendor/htc/ace " name="vendor_htc_ace" remote="cfx" revision="jb-devel"/>
+  <project path="vendor/htc/ace" name="vendor_htc_ace" remote="madushan1000" revision="jb-devel"/>
 </manifest>
