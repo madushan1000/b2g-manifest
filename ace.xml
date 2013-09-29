@@ -17,6 +17,8 @@
           fetch="https://git.mozilla.org/releases" />
   <remote name="cfx"
           fetch="https://bitbucket.org/codefirex/" />
+  <remote name="icecs" 
+  	  fetch="https://github.com/IceColdSandwich/" />
   
           
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
@@ -43,7 +45,7 @@
   <!-- Stock Android things -->
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="cm" revision="ics"/>
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="cm" revision="ics"/>
-  <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="cm" revision="ics"/>
+  <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="icecs" revision="ics"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="cm" revision="ics"/>
   <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="cm" revision="ics"/>
   <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="cm" revision="ics"/>
