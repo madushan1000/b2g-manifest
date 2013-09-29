@@ -41,14 +41,14 @@
   <project path="patches" name="gonk-patches" remote="b2g" revision="master" />
 
   <!-- Stock Android things -->
-  <project name="platform/hardware/libhardware" path="hardware/libhardware"/>
-  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" />
-  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" />
-  <project name="platform/hardware/qcom/display" path="hardware/qcom/display" />
-  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" />
-  <project name="platform/hardware/ril" path="hardware/ril" />
-  <project name="platform/hardware/msm7k" path="hardware/msm7k" />
+  <project name="android_hardware_libhardware" path="hardware/libhardware" remote="cm" revision="ics"/>
+  <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="cm" revision="ics"/>
+  <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="cm" revision="ics"/>
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="cm" revision="ics"/>
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="cm" revision="ics"/>
+  <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="cm" revision="ics"/>
+  <project name="android_hardware_ril" path="hardware/ril" remote="cm" revision="ics"/>
+  <project name="android_hardware_msm7k" path="hardware/msm7k" remote="cm" revision="ics"/>
   
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
@@ -122,10 +122,10 @@
   
   <project path="external/jhead" name="platform/external/jhead" revision="754078052c687f6721536009c816644c73e4f145"/>
   <project path="external/apache-http" name="platform/external/apache-http" revision="6c9d8c58d3ed710f87c26820d903bb8aad81754f"/>
-  
+
   <!-- hamachi specific things -->
-  <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" revision="3905a0b8fff94ed12a1149dc72875d15a6501c7a"/>
-  <project path="vendor/qcom/opensource/omx/mm-audio" name="platform/vendor/qcom-opensource/omx/mm-audio" />
+  <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="cm" revision="ics"/>
+  <project path="vendor/qcom/opensource/omx/mm-audio" name="android_vendor_qcom_opensource_omx_mm-audio" remote="cm" revision="ics"/>
   <project path="device/htc/ace" name="android_device_htc_ace" remote="madushan1000" revision="ics"/>
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="madushan1000" revision="ics"/>
   <project path="device/htc/common" name="android_device_htc_common" remote="madushan1000" revision="gingerbread"/>
