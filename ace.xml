@@ -20,7 +20,7 @@
   <remote name="icecs" 
   	  fetch="https://github.com/IceColdSandwich/" />
   <remote name="b2gX"
-  	  fetch="https://github.com/b2gX/"
+  	  fetch="https://github.com/b2gX/"/>
   
           
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
