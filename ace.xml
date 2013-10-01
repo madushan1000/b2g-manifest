@@ -85,7 +85,7 @@
   <project path="external/libgsm" name="android_external_libgsm" remote="cm" revision="ics"/>
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" revision="ics"/>
-  <project path="external/libnl-headers" name="android_external_libnl-headers" remote="cm" revision="ics"/>
+  <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libpng" name="android_external_libpng" remote="cm" revision="ics"/>
   <project path="external/libvpx" name="android_external_libvpx" remote="cm" revision="ics"/>
   <project path="external/llvm" name="android_external_llvm" remote="cm" revision="ics"/>
