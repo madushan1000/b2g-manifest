@@ -109,7 +109,7 @@
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/hostap" name="platform/external/hostap" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="external/yaffs2" name="android_external_yaffs2" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="ics"/>
   <project path="frameworks/base" name="android_frameworks_base" remote="cm" revision="ics"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="libcore" name="android_libcore" remote="cm" revision="ics"/>
