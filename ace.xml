@@ -78,7 +78,7 @@
   <project path="external/freetype" name="android_external_freetype" remote="cm" revision="ics"/>
   <project path="external/giflib" name="android_external_giflib" remote="cm" revision="ics"/>
   <project path="external/gtest" name="platform/external/gtest" revision="8c212ebe53bb2baab3575f03069016f1fb11e449" />
-  <project path="external/harfbuzz" name="android_external_harfbuzz" remote="cm" revision="ics"/>
+  <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/icu4c" name="android_external_icu4c" remote="cm" revision="ics"/>
   <project path="external/iptables" name="android_external_iptables" remote="cm" revision="ics"/>
   <project path="external/jpeg" name="android_external_jpeg" remote="cm" revision="ics"/>
