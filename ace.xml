@@ -123,6 +123,7 @@
   <project path="system/vold" name="android_system_vold" remote="cm" revision="ics"/>
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="ics"/>
   
   <project path="external/jhead" name="platform/external/jhead" revision="754078052c687f6721536009c816644c73e4f145"/>
   <project path="external/apache-http" name="platform/external/apache-http" revision="6c9d8c58d3ed710f87c26820d903bb8aad81754f"/>
