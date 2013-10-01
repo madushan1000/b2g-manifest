@@ -102,7 +102,7 @@
   <project path="external/strace" name="android_external_strace" remote="cm" revision="ics"/>
   <project path="external/svox" name="platform/external/svox" revision="ics_strawberry" />
   <project path="external/tagsoup" name="android_external_tagsoup" remote="cm" revision="ics"/>
-  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" revision="ics"/>
+  <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tremolo" name="android_external_tremolo" remote="cm" revision="ics"/>
   <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="master" />
   <project path="external/webp" name="android_external_webp" remote="cm" revision="ics"/>
