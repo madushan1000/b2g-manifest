@@ -83,7 +83,7 @@
   <project path="external/iptables" name="android_external_iptables" remote="cm" revision="ics"/>
   <project path="external/jpeg" name="android_external_jpeg" remote="cm" revision="ics"/>
   <project path="external/libgsm" name="android_external_libgsm" remote="cm" revision="ics"/>
-  <project path="external/liblzf" name="android_external_liblzf" remote="cm" revision="ics"/>
+  <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" revision="ics"/>
   <project path="external/libnl-headers" name="android_external_libnl-headers" remote="cm" revision="ics"/>
   <project path="external/libpng" name="android_external_libpng" remote="cm" revision="ics"/>
