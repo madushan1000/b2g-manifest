@@ -61,54 +61,54 @@
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
   <project path="external/apriori" name="platform_external_apriori" remote="b2g" revision="master" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
-  <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/dbus" name="platform/external/dbus" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" />
+  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cm" revision="ics"/>
+  <project path="external/bluetooth/glib" name="android_external_bluetooth_glib" remote="cm" revision="ics"/>
+  <project path="external/bluetooth/hcidump" name="android_external_bluetooth_hcidump" remote="cm" revision="ics"/>
+  <project path="external/bsdiff" name="android_external_bsdiff" remote="cm" revision="ics"/>
+  <project path="external/bzip2" name="android_external_bzip2" remote="cm" revision="ics"/>
+  <project path="external/dbus" name="android_external_dbus" remote="cm" revision="ics"/>
+  <project path="external/dhcpcd" name="android_external_dhcpcd" remote="cm" revision="ics"/>
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="cm" revision="ics"/>
   <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2g" revision="master" />
   <project path="external/elfutils" name="platform_external_elfutils" remote="b2g" revision="master" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
-  <project path="external/expat" name="platform/external/expat" />
-  <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/flac" name="platform/external/flac" />
-  <project path="external/freetype" name="platform/external/freetype" />
-  <project path="external/giflib" name="platform/external/giflib" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cm" revision="ics"/>
+  <project path="external/expat" name="android_external_expat" remote="cm" revision="ics"/>
+  <project path="external/fdlibm" name="android_external_fdlibm" remote="cm" revision="ics"/>
+  <project path="external/flac" name="android_external_flac" remote="cm" revision="ics"/>
+  <project path="external/freetype" name="android_external_freetype" remote="cm" revision="ics"/>
+  <project path="external/giflib" name="android_external_giflib" remote="cm" revision="ics"/>
   <project path="external/gtest" name="platform/external/gtest" revision="8c212ebe53bb2baab3575f03069016f1fb11e449" />
-  <project path="external/harfbuzz" name="platform/external/harfbuzz" />
-  <project path="external/icu4c" name="platform/external/icu4c" />
-  <project path="external/iptables" name="platform/external/iptables" />
-  <project path="external/jpeg" name="platform/external/jpeg" />
-  <project path="external/libgsm" name="platform/external/libgsm" />
-  <project path="external/liblzf" name="platform/external/liblzf" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
-  <project path="external/libnl-headers" name="platform/external/libnl-headers" />
-  <project path="external/libpng" name="platform/external/libpng" />
-  <project path="external/libvpx" name="platform/external/libvpx" />
-  <project path="external/llvm" name="platform/external/llvm" />
-  <project path="external/mksh" name="platform/external/mksh" />
-  <project path="external/openssl" name="platform/external/openssl" />
-  <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="external/safe-iop" name="platform/external/safe-iop" />
+  <project path="external/harfbuzz" name="android_external_harfbuzz" remote="cm" revision="ics"/>
+  <project path="external/icu4c" name="android_external_icu4c" remote="cm" revision="ics"/>
+  <project path="external/iptables" name="android_external_iptables" remote="cm" revision="ics"/>
+  <project path="external/jpeg" name="android_external_jpeg" remote="cm" revision="ics"/>
+  <project path="external/libgsm" name="android_external_libgsm" remote="cm" revision="ics"/>
+  <project path="external/liblzf" name="android_external_liblzf" remote="cm" revision="ics"/>
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" revision="ics"/>
+  <project path="external/libnl-headers" name="android_external_libnl-headers" remote="cm" revision="ics"/>
+  <project path="external/libpng" name="android_external_libpng" remote="cm" revision="ics"/>
+  <project path="external/libvpx" name="android_external_libvpx" remote="cm" revision="ics"/>
+  <project path="external/llvm" name="android_external_llvm" remote="cm" revision="ics"/>
+  <project path="external/mksh" name="android_external_mksh" remote="cm" revision="ics"/>
+  <project path="external/openssl" name="android_external_openssl" remote="cm" revision="ics"/>
+  <project path="external/protobuf" name="android_external_protobuf" remote="cm" revision="ics"/>
+  <project path="external/safe-iop" name="android_external_safe-iop" remote="cm" revision="ics"/>
   <project path="external/screencap-gonk" name="screencap-gonk" remote="b2g" revision="master" />
-  <project path="external/skia" name="platform/external/skia" />
-  <project path="external/sonivox" name="platform/external/sonivox" />
-  <project path="external/speex" name="platform/external/speex" />
+  <project path="external/skia" name="android_external_skia" remote="cm" revision="ics"/>
+  <project path="external/sonivox" name="android_external_sonivox" remote="cm" revision="ics"/>
+  <project path="external/speex" name="android_external_speex" remote="cm" revision="ics"/>
   <project path="external/sqlite" name="platform/external/sqlite" revision="fb30e613139b8836fdc8e81e166cf3a76e5fa17f"/>
-  <project path="external/stlport" name="platform/external/stlport" />
-  <project path="external/strace" name="platform/external/strace" />
+  <project path="external/stlport" name="android_external_stlport" remote="cm" revision="ics"/>
+  <project path="external/strace" name="android_external_strace" remote="cm" revision="ics"/>
   <project path="external/svox" name="platform/external/svox" revision="ics_strawberry" />
-  <project path="external/tagsoup" name="platform/external/tagsoup" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" />
-  <project path="external/tremolo" name="platform/external/tremolo" />
+  <project path="external/tagsoup" name="android_external_tagsoup" remote="cm" revision="ics"/>
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" revision="ics"/>
+  <project path="external/tremolo" name="android_external_tremolo" remote="cm" revision="ics"/>
   <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="master" />
-  <project path="external/webp" name="platform/external/webp" />
-  <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/hostap" name="platform/external/hostap" />
-  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/webp" name="android_external_webp" remote="cm" revision="ics"/>
+  <project path="external/webrtc" name="android_external_webrtc" remote="cm" revision="ics"/>
+  <project path="external/hostap" name="android_external_hostap" remote="cm" revision="ics"/>
+  <project path="external/zlib" name="android_external_zlib" remote="cm" revision="ics"/>
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="ics"/>
   <project path="frameworks/base" name="android_frameworks_base" remote="cm" revision="ics"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
