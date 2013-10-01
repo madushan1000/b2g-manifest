@@ -89,7 +89,7 @@
   <project path="external/libpng" name="android_external_libpng" remote="cm" revision="ics"/>
   <project path="external/libvpx" name="android_external_libvpx" remote="cm" revision="ics"/>
   <project path="external/llvm" name="android_external_llvm" remote="cm" revision="ics"/>
-  <project path="external/mksh" name="android_external_mksh" remote="cm" revision="ics"/>
+  <project path="external/mksh" name="platform/external/mksh" />
   <project path="external/openssl" name="android_external_openssl" remote="cm" revision="ics"/>
   <project path="external/protobuf" name="android_external_protobuf" remote="cm" revision="ics"/>
   <project path="external/safe-iop" name="android_external_safe-iop" remote="cm" revision="ics"/>
