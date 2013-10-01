@@ -55,8 +55,8 @@
   <project name="android_hardware_msm7k" path="hardware/msm7k" remote="cm" revision="ics"/>
   
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="bionic" name="android_bionic" remote="cm" revision="ics"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="ics"/>
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
@@ -112,15 +112,15 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="frameworks/base" name="android_frameworks_base" remote="cm" revision="ics"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="android_libcore" remote="cm" revision="ics"/>
   <project path="ndk" name="platform/ndk" />
   <project path="prebuilt" name="platform/prebuilt" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="platform/system/extras" />
-  <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="ics"/>
+  <project path="system/core" name="android_system_core" remote="cm" revision="ics"/>
+  <project path="system/extras" name="android_system_extras" remote="cm" revision="ics"/>
+  <project path="system/media" name="android_system_media" remote="cm" revision="ics"/>
+  <project path="system/netd" name="android_system_netd" remote="cm" revision="ics"/>
+  <project path="system/vold" name="android_system_vold" remote="cm" revision="ics"/>
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   
